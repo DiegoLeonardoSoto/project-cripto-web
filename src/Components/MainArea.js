@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import business from '../img/marketing.mp4';
 import circles from '../img/circles.svg';
 import {InnerLayout} from '../Layouts';
+import MainContent from './MainContent';
 
 
 function MainArea() {
@@ -12,7 +13,7 @@ return (
         <img src={circles} alt="" className='overlay' />
     
     <InnerLayout>
-        
+        <MainContent/>
     </InnerLayout>
     </MainAreaStyle>
 
@@ -21,7 +22,7 @@ return (
 
 const MainAreaStyle = styled.div`
     width: 100%;
-    height: 85vh;
+    height: 100vh;
     position: relative;
     overflow: hidden;
     .overlay{
