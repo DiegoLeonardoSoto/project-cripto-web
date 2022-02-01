@@ -17,16 +17,18 @@ const CtaButtonStyled = styled.a`
     font-size: 1.1rem;
     font-weight: 500;
     cursor: pointer;
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
     background: linear-gradient(120deg, #395FF6, #EB3FA9);
+
     &:last-child{
         margin-left: 1.5rem;
     }
 
     &:hover{
-        transition: all 4s ease-in-out;
-        background: linear-gradient(120deg, #EB3FA9, #395FF6);
+        transition: all .2s ease-in-out;
+        background: linear-gradient(120deg, #FCA925, #FA322E);
+        font-weight: 700;
     }
 `;
-
+//FCA925 F25281   EB3FA9 395FF6
 export default CtaButton;

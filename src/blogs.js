@@ -13,19 +13,19 @@ const blogs = [
     {
         id: 2,
         name: 'Jane Doe',
-        image: person,
+        image: bitcoin,
         title: 'How To Sell Bitcoin'
     },
     {
         id: 3,
         name: 'John Doe',
-        image: person,
+        image: bitcoin2,
         title: 'How To Sell Bitcoin'
     },
     {
         id: 4,
         name: 'Sarah Doe',
-        image: person,
+        image: bitcoin3,
         title: 'How To Sell Bitcoin'
     }
 ]
