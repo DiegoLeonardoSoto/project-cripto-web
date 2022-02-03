@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/project-cripto-web/static/js/main.36401b67.js",
+    "static/media/marketing.mp4": "/project-cripto-web/static/media/marketing.976178f95b8a6703d024.mp4",
+    "static/media/bchain.png": "/project-cripto-web/static/media/bchain.900e0d57f3f84f5a3072.png",
+    "static/media/person.jpg": "/project-cripto-web/static/media/person.886e4a77d5aceaed286d.jpg",
+    "static/media/map.png": "/project-cripto-web/static/media/map.3a57e88c81ae5634a98a.png",
+    "static/media/person3.jpg": "/project-cripto-web/static/media/person3.53878b1197ad269e2f6f.jpg",
+    "static/media/bitcoin.jpg": "/project-cripto-web/static/media/bitcoin.46e8c1068ae51db6fd31.jpg",
+    "static/media/avatar.png": "/project-cripto-web/static/media/avatar.f235a960cbea81f43c32.png",
+    "static/media/bitcoin3.jpg": "/project-cripto-web/static/media/bitcoin3.50028aaf9346372c0811.jpg",
+    "static/media/avata.jpg": "/project-cripto-web/static/media/avata.05b027287a82b9a05209.jpg",
+    "static/media/bitcoin2.jpg": "/project-cripto-web/static/media/bitcoin2.b8ba908828b352b7f8e5.jpg",
+    "static/media/computer.jpg": "/project-cripto-web/static/media/computer.6a406e2e7b5869c11491.jpg",
+    "static/media/time.svg": "/project-cripto-web/static/media/time.167033886016af6256bcd6cc41631053.svg",
+    "index.html": "/project-cripto-web/index.html",
+    "static/media/heart.svg": "/project-cripto-web/static/media/heart.1b53b8d5cb43ffab9ace4b742cab0ea0.svg",
+    "static/media/circles.svg": "/project-cripto-web/static/media/circles.be1ff3c5420557bd113822e3e53fbb42.svg",
+    "main.36401b67.js.map": "/project-cripto-web/static/js/main.36401b67.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.36401b67.js"
+  ]
+}
