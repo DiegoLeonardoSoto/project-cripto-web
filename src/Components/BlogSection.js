@@ -35,9 +35,11 @@ function BlogSection() {
 const BlogSectionStyled = styled.div`
     .blogs{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
         grid-gap: 2rem;
         padding-top: 2rem;
+
+
         .blog{
             background: rgba(255,255,255, 0.03);
             border-radius: 20px;

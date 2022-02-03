@@ -4,6 +4,7 @@ import time from '../img/time.svg';
 import heart from '../img/heart.svg';
 
 function GradientCard({image, avatar, name, price, title, ctaButton}) {
+    
     return (
         <GradientCardStyled>
             <div className="g-card">
@@ -26,7 +27,10 @@ function GradientCard({image, avatar, name, price, title, ctaButton}) {
                             <p> <img src={time} alt="" /> 7 Hours Ago</p>
                             <p> <img src={heart} alt="" /> 150 Likes </p>
                         </div>
-
+                        
+                        {
+                            (ctaButton == null) ?  null : <div className="cta-btn"> {ctaButton} </div>
+                        }
                     </div>
                 </div>
             </div>
@@ -132,8 +136,17 @@ const GradientCardStyled = styled.div`
                 }
             }
         }
+        
+        .cta-btn{
+            width: 100%;
+            a{
+                margin: .6rem 0;
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+            }
+        }
     }
-
 `;
 
 export default GradientCard;
